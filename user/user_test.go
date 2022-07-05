@@ -3,6 +3,7 @@ package user_test
 import (
     "testing"
 
+    . "go-tests/utils"
     . "go-tests/user"
 )
 
