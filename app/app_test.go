@@ -15,7 +15,7 @@ func (self *TestJobClient) AddToQueue(data string) error {
     return self.AddToQueueFunc(data)
 }
 
-func TestMyApplication_SendYo(t *testing.T) {
+func TestApp_Submit(t *testing.T) {
 
     c := &TestJobClient{}
 
